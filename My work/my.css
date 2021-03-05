@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 100px 30px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.insta {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.menu-item {
+    margin: 10px;
+}
+
+.mainvisual {
+    background-image: url(image/mainvisual-pc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.about {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.about-text {
+    margin: 30px;
+    font-size: 12px;
+}
+
+.about-1 {
+    margin-bottom: 40px;
+}
+
+.about-2 {
+    margin-bottom: 40px;
+}
+
+.works {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.works-imgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.works-img {
+    width: 30%;
+    margin: 10px;
+}
+
+.news {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.news-texts {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.news-text {
+    border-top: solid 1px #c8c8c8;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.news-text dt {
+    width: 20%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.news-text dd {
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+}
+
+footer {
+    font-size: 5px;
+    text-align: center;
+    color: white;
+    background-color: #24292e;
+    padding: 30px;
+}
+
+.contact {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    margin: 0 30px;
+}
+
+.btn {
+    color: white;
+    background-color: #24292e;
+    display: block;
+    height: 60px;
+    width: 220px;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 40px auto 100px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.contact-item {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.contact-item dt {
+    float: left;
+    width: 20%;
+}
+
+.contact-item dd {
+    margin-bottom: 10px;
+}
+
+.name {
+    height: 40px;
+    width: 80%;
+    border: solid gray 0.5px;
+}
+
+.message {
+    height: 200px;
+    width: 80%;
+    border: solid gray 0.5px;
+}
